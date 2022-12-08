@@ -23,12 +23,100 @@ body {
 /* ----- zde zacni psat vlastni css ----- */
 
 body {
+    margin-top:50px;
+    margin-left:150px;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    background-color: #f5f5f5 ;
 }
 
+.zbozi{
+    display:flex;
+    width:670px;
+    height:440px;
+}
+.vizual{
+    background:linear-gradient(#06d7c1, #50cc49);
+    color:white;
+    width:335px;
+    box-shadow: 2px 2px 4px rgb(181, 179, 179);
+    border-radius: 5px 0 0 5px;
+    padding:30px;
+}
+.detaily{
+    width:335px;
+    padding:30px;
+    box-shadow: 2px 2px 4px rgb(181, 179, 179);
+    border-radius: 0 5px 5px 0;
+}
 
 h1 {
+    margin:0;
+    font-size:20px;
+    font-weight: 500 bold;
+    padding-bottom:-20px;
+}
+.slogan{
+    font-size: 16px;
     font-weight: 500;
 }
 
+.bota{
+    position:relative;
+    right:110px;
+    bottom:-10px;
+}
+.cenovka{
+    position: relative;
+    font-size:28px;
+    font-weight:500;
+    text-align: right;
+    bottom:70px;
+}
+.zaruka{
+    font-size:12px;
+    font-weight:400;
+}
+.nazev{
+
+}
+.produkt{
+    color: #959595;
+    padding-bottom: 20px;
+}
+.popis{
+    margin:0;
+    padding-bottom: -10px;
+}
+.velikosti li{
+    display:inline-block;
+    margin:0;
+    padding: 5px;
+} 
+.velikosti{padding-left:15px;}
+.tlacitko{
+background-color:
+#f15f42;
+border-radius: 8px;
+color:white;
+padding: 15px 25px;
+text-decoration: none;
+position:relative;
+bottom: -40px;
+}
+.velikosti li:hover,
+.vybrana li:focus{background-color: red;
+    border-radius: 50%;
+} 
+.vybrana{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.parametr::before{
+    display: block;
+    content: "";
+    background-color: #06d7c1;
+    width: 250px;
+    height:2px;
+    margin-bottom: 10px;;
+}
